@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VideoSummary", "VideoSummar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipMind.VideoSummary", "src\Services\ClipMind.VideoSummary\ClipMind.VideoSummary.csproj", "{D2EFD111-2740-4B5E-81A4-99D460B4D331}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.SharedKernel", "BuildingBlocks.SharedKernel\BuildingBlocks.SharedKernel.csproj", "{1419F41C-46C6-4776-B33E-1189FE13C1B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,7 @@ Global
 		{95DC34D3-8663-4783-AA31-F859B8296A23} = {3CF51E3E-C3DA-4DE6-9794-13A5D8478395}
 		{41B06AFF-6571-41D8-85A5-C1EBA19A196F} = {B8709B19-2EB4-41D9-9F46-6EBCD3B4B5D3}
 		{D2EFD111-2740-4B5E-81A4-99D460B4D331} = {41B06AFF-6571-41D8-85A5-C1EBA19A196F}
+		{1419F41C-46C6-4776-B33E-1189FE13C1B0} = {E5075328-6AE2-4809-801F-AFD9AFC9B143}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A2A9EE7B-02D0-4FFA-A2D6-CFAEA1F635A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,5 +51,9 @@ Global
 		{D2EFD111-2740-4B5E-81A4-99D460B4D331}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2EFD111-2740-4B5E-81A4-99D460B4D331}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2EFD111-2740-4B5E-81A4-99D460B4D331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1419F41C-46C6-4776-B33E-1189FE13C1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1419F41C-46C6-4776-B33E-1189FE13C1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1419F41C-46C6-4776-B33E-1189FE13C1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1419F41C-46C6-4776-B33E-1189FE13C1B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
