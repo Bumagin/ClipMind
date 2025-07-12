@@ -1,0 +1,6 @@
+@ClipMind.VideoSummary_HostAddress = http://localhost:5166
+
+GET {{ClipMind.VideoSummary_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

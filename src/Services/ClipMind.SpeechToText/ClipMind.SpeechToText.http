@@ -1,0 +1,6 @@
+@ClipMind.SpeechToText_HostAddress = http://localhost:5209
+
+GET {{ClipMind.SpeechToText_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
