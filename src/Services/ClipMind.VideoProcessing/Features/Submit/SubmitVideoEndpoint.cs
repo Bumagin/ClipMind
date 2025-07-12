@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ClipMind.VideoProcessing.Features.Submit;
 
+public record SubmitVideoRequest(string VideoUrl);
+
 public class SubmitVideoEndpoint : IEndpoint
 {
-    public record SubmitVideoRequest(string VideoUrl);
-
     public void Register(IEndpointRouteBuilder app)
     {
         app.MapPost("api/video", async (
